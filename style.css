@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sofia&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #116D6E;
+    color: #FFF4F4;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: 'Sofia', cursive;
+    font-size: 10vh;
+}
+
+.generate--button, .sort--button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 1vh 2vw 1vh 2vw;
+    background-color: #FFF4F4;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.generate--button:hover, .sort--button:hover {
+    cursor: pointer;
+    background-color: #fff4f4db;
+}
+
+.container {
+    height: 65vh;
+    width: 50vw;
+    border: 1px solid #9BA4B5;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin: 5vh 25vw 0 25vw;
+}
