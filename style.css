@@ -43,3 +43,38 @@
     align-items: end;
     margin: 5vh 25vw 0 25vw;
 }
+
+
+/* Responsive Design */
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 9vh;
+    }
+
+    .container {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+        font-size: 9vh;
+    }
+
+    .container {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 6vh;
+    }
+
+    .container {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}
