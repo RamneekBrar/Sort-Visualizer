@@ -68,9 +68,10 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .title {
         font-size: 6vh;
+        margin-left: 2vh;
     }
 
     .container {
